@@ -79,7 +79,7 @@ body{
     border-color: #002e5f;
     font-size: 1.5rem;
     cursor: pointer;
-    height: 3.5rem;
+    height: 1.5rem;
     width: 15rem;
     box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
 }
@@ -112,7 +112,7 @@ body{
 }
 
 .header .logo img{
-    width: 10%;
+    width: 130%;
     height: 3rem;
     top: 0;
     left: 0;
