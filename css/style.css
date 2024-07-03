@@ -1366,24 +1366,7 @@ body{
             width: 100%;
         }
 
-    .back-to-top {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background-color: #ff9800;
-        color: #fff;
-        padding: 10px 15px;
-        border-radius: 50%;
-        text-align: center;
-        font-size: 18px;
-        display: none;
-        cursor: pointer;
-        z-index: 1000; /* تحديد ترتيب الطبقات إذا كان هناك خلاف */
-    }
 
-    .back-to-top i {
-        line-height: 1;
-    }
 
     .image-links {
         display: flex;
