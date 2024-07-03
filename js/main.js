@@ -92,4 +92,23 @@ $('.accordion-header').click(function(){
     };
 
 
+
+
+
+
+
+    window.addEventListener('scroll', function() {
+        var button = document.querySelector('.back-to-top');
+        if (window.scrollY > 200) { // يمكنك تعديل القيمة حسب الحاجة
+            button.classList.add('show');
+        } else {
+            button.classList.remove('show');
+        }
+    });
+    
+    function scrollToTop() {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
+    
 });
