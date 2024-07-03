@@ -471,7 +471,7 @@ body{
     position: relative; /* لتفعيل النسبية للخلفية */
     background-color: rgba(0, 0, 0, 0.849); /* خلفية سوداء شفافة */
     color:#fff;
-    min-height: 50%;
+    min-height: 15vh;
     padding: 40px 20px;
 }
 
